@@ -31,7 +31,7 @@ The purpose of this project was to classify IMDB movie reviews into positive or 
 
 ## Data Source
 
-You may access the dataset used in this project through this [link](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+You may access the dataset used in this project through this [link](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). It is too large to include to this repository, unfortunately. 
 
 The dataset has two basic characteristics: 
 1. review: contains the reviews in IMDB.
