@@ -71,13 +71,13 @@ The dataset has two basic characteristics:
 
 ## Approach
 
-1. Preprocessing
+1. Preprocessing :
    Data is cleaned from html tags, special characters that are not alphanumeric, and stopwords. Then the stemming applied to each word. This was necessary for the model to focus on only the meaningful text and it improved the efficiency. Stemming was chosen over lemmatization because of its simplicity and therefore computation speed.
 
-2. Exploratory Data Analysis
+2. Exploratory Data Analysis :
    I used some visualizations to give the user a sense of what we are dealing with. I thought it would be nice to see which words are mostly appearing on positive and negative reviews, so a function is added to generate word clouds which displayed the most used words in positive and negative reviews.
 
-3. Building  and Evaluating the Model
+3. Building  and Evaluating the Model :
    I chose to build a simple neural netword with an embedding layer, pooling and dropout layers. This way, it was possible to have over 80% accuracy without needing to use SOTA models like BERT. To evaluate the model, I used accuracy, precision, recall, F1-score, and confusion matrices. 
 
 ## Findings
