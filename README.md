@@ -78,7 +78,7 @@ The dataset has two basic characteristics:
    I used some visualizations to give the user a sense of what we are dealing with. I thought it would be nice to see which words are mostly appearing on positive and negative reviews, so a function is added to generate word clouds which displayed the most used words in positive and negative reviews.
 
 3. Building  and Evaluating the Model :
-   I chose to build a simple neural netword with an embedding layer, pooling and dropout layers. This way, it was possible to have over 80% accuracy without needing to use SOTA models like BERT. To evaluate the model, I used accuracy, precision, recall, F1-score, and confusion matrices. 
+   I chose to build a simple neural network with an embedding layer, pooling and dropout layers. This way, it was possible to have over 80% accuracy without needing to use SOTA models like BERT. To evaluate the model, I used accuracy, precision, recall, F1-score, and confusion matrices. 
 
 ## Findings
 
